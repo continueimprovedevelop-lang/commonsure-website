@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Two-Line Assessment Template — Commonsure Community Solutions</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0.6in 0.7in;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
+  margin: 0;
+}
+.header {
+  border-bottom: 4px solid #2E4636;
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+}
+.header h1 {
+  font-size: 20px;
+  color: #2E4636;
+  margin: 0 0 4px;
+}
+.header p {
+  font-size: 11px;
+  color: #555;
+  margin: 0;
+}
+.intro {
+  font-size: 11px;
+  color: #333;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+.fields {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 18px;
+  font-size: 11px;
+}
+.fields div {
+  flex: 1;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4px;
+}
+.columns {
+  display: flex;
+  gap: 16px;
+}
+.col {
+  flex: 1;
+  border-radius: 6px;
+  padding: 14px;
+}
+.col.locked {
+  background: #2E4636;
+  color: #FAFBFA;
+}
+.col.passthrough {
+  background: #FBF1E1;
+  border: 1px solid #C8912A;
+  color: #1a1a1a;
+}
+.col h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 10px;
+}
+.col.locked h2 { color: #FAFBFA; }
+.col.passthrough h2 { color: #2E4636; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+table td {
+  padding: 6px 4px;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+.col.passthrough table td {
+  border-bottom: 1px solid rgba(46,70,54,0.2);
+}
+.line-label {
+  width: 60%;
+}
+.line-value {
+  text-align: right;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.col.passthrough .line-value {
+  border-bottom: 1px solid #999;
+}
+.disclosure {
+  margin-top: 18px;
+  font-size: 9.5px;
+  color: #555;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+.footer {
+  margin-top: 14px;
+  font-size: 9.5px;
+  color: #888;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>The Two-Line Assessment Template</h1>
+    <p>A free, one-page worksheet for any HOA board — with or without Commonsure.</p>
+  </div>
+
+  <div class="intro">
+    Use this worksheet to separate what your community's management fee actually covers (Line 1 — Locked)
+    from what moves independently of that fee (Line 2 — Pass-through). Fill in your community's current
+    numbers below, using your most recent budget, insurance renewal, and reserve study.
+  </div>
+
+  <div class="fields">
+    <div>Community name: _______________________</div>
+    <div>State: _______________</div>
+    <div>Date: _______________</div>
+  </div>
+
+  <div class="columns">
+    <div class="col locked">
+      <h2>Line 1 — Locked</h2>
+      <table>
+        <tr><td class="line-label">Management fee (monthly)</td><td class="line-value">$</td></tr>
+        <tr><td class="line-label">Management fee (annual)</td><td class="line-value">$</td></tr>
+        <tr><td class="line-label">Contract term start</td><td class="line-value">&nbsp;</td></tr>
+        <tr><td class="line-label">Contract term end</td><td class="line-value">&nbsp;</td></tr>
+        <tr><td class="line-label">Included services (list)</td><td class="line-value">&nbsp;</td></tr>
+        <tr><td class="line-label">&nbsp;</td><td class="line-value">&nbsp;</td></tr>
+        <tr><td class="line-label">&nbsp;</td><td class="line-value">&nbsp;</td></tr>
+      </table>
+    </div>
+
+    <div class="col passthrough">
+      <h2>Line 2 — Pass-through</h2>
+      <table>
+        <tr><td class="line-label">Property/master insurance (annual)</td><td class="line-value">$</td></tr>
+        <tr><td class="line-label">Property taxes, if applicable (annual)</td><td class="line-value">$</td></tr>
+        <tr><td class="line-label">Regulated utilities (annual)</td><td class="line-value">$</td></tr>
+        <tr><td class="line-label">Reserve contribution (annual)</td><td class="line-value">$</td></tr>
+        <tr><td class="line-label">Last year's renewal change (%)</td><td class="line-value">%</td></tr>
+        <tr><td class="line-label">Reserve study on file? (Y/N, date)</td><td class="line-value">&nbsp;</td></tr>
+        <tr><td class="line-label">Total pass-through (annual)</td><td class="line-value">$</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="disclosure">
+    <strong>How to use this:</strong> Add Line 1 (locked) and Line 2 (pass-through) separately in every board
+    report and every homeowner communication — never as one combined "total bill" number. If your Line 2
+    total has grown faster than your Line 1 total, that is the clearest sign a documented 12-month operating
+    baseline and reserve-study review would help your board before your next renewal.
+    <br><br>
+    This template is provided free by Commonsure Community Solutions, a certainty and treasury platform for
+    community associations — not a management company — delivered through state-licensed consortium partners.
+    Using this template does not obligate your community to any Commonsure engagement.
+  </div>
+
+  <div class="footer">Commonsure Community Solutions &middot; commonsureglobal.com &middot; zulma@commonsureglobal.com</div>
+</body>
+</html>
