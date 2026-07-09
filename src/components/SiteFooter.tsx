@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { navigation, siteConfig } from "@/content/site";
 
 export default function SiteFooter() {
@@ -15,9 +14,9 @@ export default function SiteFooter() {
             <ul className="grid grid-cols-2 gap-2 text-sm text-cream/80 sm:grid-cols-1">
               {navigation.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="hover:text-white">
+                  <a href={item.href} className="hover:text-white">
                     {item.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

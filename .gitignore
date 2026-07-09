@@ -27,3 +27,6 @@ next-env.d.ts
 # vercel
 .vercel
 .env*
+
+# pexels source mp4s (regenerate via scripts/fetch_pexels_gifs.sh)
+public/gifs/sources/

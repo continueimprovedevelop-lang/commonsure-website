@@ -60,6 +60,179 @@ export const longTermSuccessStatement =
 export const twoLineDisclosure =
   "Your management fee is locked. Your total assessment can still move if insurance, taxes, or regulated utilities move — and we show you exactly which line changed and why, every single reporting cycle.";
 
+export const costReductionLevers = [
+  {
+    title: "Group purchasing",
+    description: "Bulk insurance and vendor contracts negotiated at portfolio scale.",
+  },
+  {
+    title: "Preventive maintenance",
+    description: "Fewer emergency repairs through scheduled upkeep.",
+  },
+  {
+    title: "Vendor negotiation",
+    description: "Portfolio-scale pricing no single community gets alone.",
+  },
+  {
+    title: "Reserve optimization",
+    description: "Earnings credited back to your community.",
+  },
+  {
+    title: "Landscape efficiency",
+    description: "Water-smart design lowers operating expenses.",
+  },
+];
+
+export const communityBenefits = [
+  {
+    title: "Higher property values",
+    description: "Through well-maintained common areas.",
+  },
+  {
+    title: "Resident satisfaction",
+    description: "From predictable assessments and responsive governance.",
+  },
+  {
+    title: "Predictable assessments",
+    description: "No surprise fee hikes for homeowners.",
+  },
+  {
+    title: "Better governance",
+    description: "Transparent, auditable finances the board can defend.",
+  },
+];
+
+export const mentorshipCallout = {
+  headline: "Building capacity beyond the balance sheet",
+  body: "Commonsure's community-finance model doubles as a capacity-building pipeline: university co-design interns mentor high-school students through CID's cascading mentorship framework, teaching reserve studies, two-line assessments, and board governance basics through future HOA financial literacy workshops.",
+};
+
+export const sustainabilityInitiatives = [
+  {
+    title: "Water conservation",
+    description: "Smart irrigation and usage monitoring across common areas.",
+  },
+  {
+    title: "Native landscaping",
+    description: "Lower water and maintenance costs, season after season.",
+  },
+  {
+    title: "Efficient irrigation",
+    description: "Innovative R&D deployed where available.",
+  },
+  {
+    title: "Recycling initiatives",
+    description: "Responsible community operations, built into daily routines.",
+  },
+];
+
+export const vendorCategories = [
+  "Landscaping",
+  "Snow removal",
+  "Roofing",
+  "Asphalt",
+  "Painting",
+  "Electrical",
+  "Plumbing",
+  "Insurance",
+];
+
+export const vendorPartnerSlides = [
+  {
+    category: "Painting",
+    description: "Licensed crews, portfolio pricing.",
+    src: "/gifs/vendor-painting.gif",
+  },
+  {
+    category: "Roofing",
+    description: "Preventive maintenance, fewer emergencies.",
+    src: "/gifs/vendor-roofing.gif",
+  },
+  {
+    category: "Landscaping",
+    description: "Seasonal contracts and water-smart common-area upkeep at portfolio scale.",
+    src: "/gifs/vendor-landscaping.gif",
+  },
+  {
+    category: "Snow removal",
+    description: "Regional crews coordinated across communities for predictable winter costs.",
+    src: "/gifs/vendor-snow-removal.gif",
+  },
+  {
+    category: "Asphalt",
+    description: "Paving and sealcoating bids pooled for better per-unit pricing.",
+    src: "/gifs/vendor-asphalt.gif",
+  },
+  {
+    category: "Electrical",
+    description: "Licensed electricians for common-area systems and capital projects.",
+    src: "/gifs/vendor-electrical.gif",
+  },
+  {
+    category: "Plumbing",
+    description: "Preventive plumbing and irrigation repairs before they become emergencies.",
+    src: "/gifs/vendor-plumbing.gif",
+  },
+  {
+    category: "Insurance",
+    description: "Master-policy negotiation and portfolio pooling to reduce premium volatility.",
+    src: "/gifs/vendor-insurance.gif",
+  },
+];
+
+export const differentiationRows = [
+  { traditional: "Annual Increases", commonsure: "Fee Certainty" },
+  { traditional: "Reactive", commonsure: "Preventive" },
+  { traditional: "Static", commonsure: "Optimized" },
+  { traditional: "Opaque pass-throughs", commonsure: "Separate fee + pass-through lines" },
+];
+
+export const pilotProgram = {
+  headline: "Now enrolling Colorado pilot communities",
+  points: [
+    "300-home illustrative model — $575K median home",
+    "Scalable growth to Texas, Florida, and New York",
+    "Regional expansion through licensed consortium partners",
+  ],
+};
+
+export const implementationPhases = [
+  {
+    phase: "30-Day Discovery",
+    description: "Community assessment and baseline review.",
+  },
+  {
+    phase: "90-Day Optimization",
+    description: "Governance, reserves, and vendor alignment.",
+  },
+  {
+    phase: "Year 1 Stabilization",
+    description: "Fee lock active, savings programs online.",
+  },
+  {
+    phase: "Years 2–5 Growth",
+    description: "Portfolio scale, reserve yield, and cost stability.",
+  },
+];
+
+export const faqs = [
+  {
+    question: "What does it cost?",
+    answer:
+      "No upfront subscription. After your 90-day correction sprint, the Five-Year MSA includes a transparent per-door orchestration fee (typically about $4.50/door/month). Reserve optimization credits and documented savings are reported every cycle and can reduce your net assessment — but insurance, taxes, and regulated utilities remain pass-through costs, never part of the lock.",
+  },
+  {
+    question: "How are savings generated?",
+    answer:
+      "Fee lock, reserve optimization, group insurance, vendor negotiation, and landscape efficiency — credited and reported each cycle.",
+  },
+  {
+    question: "How is transparency maintained?",
+    answer:
+      "Locked management fee and pass-through costs are separate line items; all credits documented every reporting cycle.",
+  },
+];
+
 export const boardResources = [
   {
     title: "The Two-Line Assessment Template",

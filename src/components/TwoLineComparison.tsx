@@ -2,7 +2,11 @@
 
 import { motion } from "framer-motion";
 
-const lockedItems = ["Management fee", "Locked for five years", "Known, defensible number"];
+const lockedItems = [
+  "Licensed partner management fee",
+  "Commonsure platform orchestration & QA oversight",
+  "Fee schedule fixed at MSA signing — same defensible number every cycle for five years",
+];
 const passThroughItems = ["Taxes", "Insurance", "Regulated utilities"];
 
 export default function TwoLineComparison() {
@@ -35,7 +39,7 @@ export default function TwoLineComparison() {
         className="rounded-lg border border-gold/40 bg-gold/10 p-6"
       >
         <p className="text-xs font-semibold uppercase tracking-wide text-forest/70">Line 2 — Pass-through</p>
-        <p className="mt-2 text-lg font-semibold text-charcoal">Reported separately, every cycle</p>
+        <p className="mt-2 text-lg font-semibold text-charcoal">Reported separately, every cycle for now</p>
         <ul className="mt-4 space-y-2 text-sm text-charcoal/80">
           {passThroughItems.map((item) => (
             <li key={item} className="flex items-start gap-2">

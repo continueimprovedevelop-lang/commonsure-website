@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:clean": "rm -rf .next && next dev",
+    "prebuild": "node scripts/ensure-dev-stopped.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -13,7 +15,8 @@
     "framer-motion": "^12.23.22",
     "next": "15.5.9",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "recharts": "^3.9.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
