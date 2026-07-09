@@ -13,6 +13,7 @@ import {
   SustainIcon,
   ChevronDownIcon,
 } from "@/components/icons";
+import { downloadFounderContact } from "@/lib/founderContact";
 
 const benefitIcons = [CostIcon, ReserveIcon, CertaintyIcon, CommunityIcon, SustainIcon];
 
@@ -78,6 +79,13 @@ export default function DigitalBusinessCard() {
                   </span>
                   <span className="font-medium group-hover:text-forest">{siteConfig.contactPhone}</span>
                 </a>
+                <button
+                  type="button"
+                  onClick={downloadFounderContact}
+                  className="w-full rounded-lg border border-forest bg-forest px-4 py-3 text-sm font-semibold text-cream transition hover:bg-forest-dark"
+                >
+                  Save my contact info
+                </button>
               </div>
 
               <p className="mt-6 text-sm text-charcoal/70">{siteConfig.categoryLine}</p>
